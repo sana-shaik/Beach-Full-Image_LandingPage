@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* color: #fff;
+    text-align: center; */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #400b55;
+    line-height: 1.6;
+}
+
+/* Header */
+
+#showcase {
+    /* background-image: url(../img/beach-bungalow-caribbean-jetty-237272.jpg) no-repeat; */
+    background-image: url(../img/photo-of-blue-sea-1430677.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p1 {
+    font-size: 20px;
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #400b55;
+    border: 1px solid  #400b55;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#showcase .button:hover {
+    background: #400b55;
+    color: #fff;
+}
+
+#section-a {
+    padding: 20px;
+    background: #400b55;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+#section-b {
+    padding: 20px;
+    color: #400b55;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box1, #section-c .box3 {
+    background: #400b55;
+    color: #fff;
+}
+
+#section-b .box2 {
+    color: #400b55;
+    text-align: center;
+}
+
+/* #showcase a {
+
+    width: 100%;
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px;
+    
+    border: 1px solid #ffffff;
+} */
